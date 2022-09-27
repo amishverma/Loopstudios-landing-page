@@ -28,7 +28,7 @@ body {
 }
 
 .header {
-  background-image: url("/images/desktop/image-hero.jpg");
+  background-image: url("../images/desktop/image-hero.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -325,7 +325,7 @@ li {
   background-position: center;
 }
 .card:nth-of-type(6) {
-  background: url("/images/desktop/image-pocket-borealis.jpg");
+  background: url("../images/desktop/image-pocket-borealis.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top right;
@@ -337,7 +337,7 @@ li {
   background-position: top right;
 }
 .card:nth-of-type(8) {
-  background: url("/images/desktop/image-fisheye.jpg");
+  background: url("../images/desktop/image-fisheye.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top right;
