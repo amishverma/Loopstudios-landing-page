@@ -37,11 +37,7 @@
 .gallery {
   margin-top: 50px;
   display: grid;
-  // height: 900px;
-  // grid-template-columns: repeat(4, calc(25% - 15px));
-  // grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(auto-fill,minmax(260px,1fr));
-  // grid-template-rows: auto auto;
   height:100%;
   justify-content: center;
   align-items: stretch;
@@ -55,31 +51,31 @@
   position: relative;
 
   &:nth-of-type(1) {
-    background: url("/images/desktop/image-deep-earth.jpg");
+    background: url("../images/desktop/image-deep-earth.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
   }
   &:nth-of-type(2) {
-    background: url("/images/desktop/image-night-arcade.jpg");
+    background: url("../images/desktop/image-night-arcade.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
   }
   &:nth-of-type(3) {
-    background: url("/images/desktop/image-soccer-team.jpg");
+    background: url("../images/desktop/image-soccer-team.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top right;
   }
   &:nth-of-type(4) {
-    background: url("/images/desktop/image-grid.jpg");
+    background: url("../images/desktop/image-grid.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
   }
   &:nth-of-type(5) {
-    background: url("/images/desktop/image-from-above.jpg");
+    background: url("../images/desktop/image-from-above.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -91,7 +87,7 @@
     background-position: top right;
   }
   &:nth-of-type(7) {
-    background: url("/images/desktop/image-curiosity.jpg");
+    background: url("../images/desktop/image-curiosity.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 

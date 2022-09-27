@@ -295,31 +295,31 @@ li {
   position: relative;
 }
 .card:nth-of-type(1) {
-  background: url("/images/desktop/image-deep-earth.jpg");
+  background: url("../images/desktop/image-deep-earth.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .card:nth-of-type(2) {
-  background: url("/images/desktop/image-night-arcade.jpg");
+  background: url("../images/desktop/image-night-arcade.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .card:nth-of-type(3) {
-  background: url("/images/desktop/image-soccer-team.jpg");
+  background: url("../images/desktop/image-soccer-team.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top right;
 }
 .card:nth-of-type(4) {
-  background: url("/images/desktop/image-grid.jpg");
+  background: url("../images/desktop/image-grid.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .card:nth-of-type(5) {
-  background: url("/images/desktop/image-from-above.jpg");
+  background: url("../images/desktop/image-from-above.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -331,7 +331,7 @@ li {
   background-position: top right;
 }
 .card:nth-of-type(7) {
-  background: url("/images/desktop/image-curiosity.jpg");
+  background: url("../images/desktop/image-curiosity.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top right;
