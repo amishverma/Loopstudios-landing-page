@@ -11,6 +11,7 @@ html {
 
 img {
   max-width: 100%;
+  height: auto;
 }
 
 li {
@@ -195,6 +196,7 @@ li {
   align-items: flex-end;
   position: relative;
   width: 100%;
+  max-width: 1300px;
 }
 
 .mid-content {
@@ -246,8 +248,10 @@ li {
 }
 .gallery-section {
   margin: 0 auto;
-  padding: 4rem;
   width: 100%;
+  max-width: 1300px;
+  height: 100vh;
+  margin-bottom: 30px;
 }
 
 .gallery__content {
@@ -278,10 +282,12 @@ li {
 .gallery {
   margin-top: 50px;
   display: grid;
-  height: 900px;
-  grid-template-columns: repeat(4, calc(25% - 15px));
-  grid-template-rows: repeat(2, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  height: 100%;
+  justify-content: center;
+  align-items: stretch;
+  padding: 0.3rem;
+  gap: 10px;
 }
 
 .card {
@@ -399,6 +405,7 @@ li {
   }
 }
 .footer {
+  margin-top: 100px;
   padding: 3rem;
   background-color: black;
   color: white;

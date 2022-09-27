@@ -56,14 +56,14 @@ var observer1 = new IntersectionObserver((entries, options) => {
   // console.log(entries);
   if (entries[0].isIntersecting) {
     tl.from(".card", {
-      duration: 1.5,
+      duration: 1,
       opactiy: 0,
       scale: 0.3,
       ease: "bounce",
       //   stagger: { each: 0.25, amount: 2, from: "end" },
       stagger: 0.3,
     });
-    observer.unobserve(gallery);
+    observer1.unobserve(gallery);
   }
 });
 observer1.observe(gallery);
