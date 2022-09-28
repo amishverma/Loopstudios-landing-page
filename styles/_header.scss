@@ -1,5 +1,5 @@
 .header {
-  background-image: url("/images/desktop/image-hero.jpg");
+  background-image: url("../images/desktop/image-hero.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -98,7 +98,6 @@ li {
 
   &__heading {
     // line-height: 4rem;
-
     letter-spacing: 0.3rem;
   }
 }

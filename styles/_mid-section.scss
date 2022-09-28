@@ -48,16 +48,13 @@
     position: relative;
     margin: 0 auto;
     left: 0;
-
     width: 100%;
     text-align: center;
   }
 
   .image-section {
     width: 100%;
-  }
-  img {
-    max-width: 100%;
-    z-index: -1;
+    position: relative;
+    z-index: -9999;
   }
 }
